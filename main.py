@@ -2,7 +2,7 @@
 
 def read_file_content(file): #opens and reads the file
     file = open(input ("Type the name of the textfile (make sure it is in the same directory as the program): "))
-    return file.read(), "Opened successfully"
+    return file.read()
 
 
 def count_words(): #function to count the words
